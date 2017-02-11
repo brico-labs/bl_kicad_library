@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TB6612FNG_BREAKOUT
+D TB6612FNG Dual Motor Driver Carrier (Pololu #713)
+K MOTOR DRIVER BREAKOUT
+$ENDCMP
+#
+#End Doc Library
