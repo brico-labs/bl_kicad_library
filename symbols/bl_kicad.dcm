@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Arduino_Pro_Mini
+D Arduino Pro Micro
+K Arduino 
+$ENDCMP
+#
 $CMP TB6612FNG_BREAKOUT
 D TB6612FNG Dual Motor Driver Carrier (Pololu #713)
 K MOTOR DRIVER BREAKOUT
