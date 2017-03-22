@@ -20,4 +20,26 @@ llamar como más te guste, p.ej. *bl_kicad_library*
 Después de añadir la biblioteca de BricoLabs como submódulo tienes que
 configurar KiCAD para que sepa donde está la biblioteca.
 
+### Configurar el editor de esquemas (_eeschema_) de KiCAD
+
+Dentro de la opción _Preferences::Component Libraries_, y suponiendo
+que has llamado _library_ a tu clone de github, añadimos el path que
+apunte a `library/symbols`.
+
+Una vez añadido el _path_ añadimos la biblioteca de BricoLabs
+apuntando al fichero `library\symbols\bl_kicad.lib`.
+
+Y ya disponemos de todos los symbolos nuevos en el proyecto.
+
+### Configurar el editor de PCB (_pcbnew_) de KiCAD
+
+Dentro de la herramienta _pcbnew_ arrancamos el
+_Preferences::Footprint libraries wizzard_ y apuntamos al directorio
+de nuestro proyecto `library/modules/bl_kicad.pretty`. Podremos
+escoger si queremos añadirlo a este proyecto específico o a todos
+nuestros proyectos de forma global. Si estas usando la biblioteca como
+submodulo git de tu proyecto lo lógico es añadirla solo como
+biblioteca de proyecto.
+
+
 
