@@ -41,5 +41,18 @@ nuestros proyectos de forma global. Si estas usando la biblioteca como
 submodulo git de tu proyecto lo lógico es añadirla solo como
 biblioteca de proyecto.
 
+## Clonando tu proyecto
 
+Si estas usando la biblioteca como submódulo git, a la hora de clonar
+tu proyecto debes seguir estos pasos:
 
+~~~~{bash}
+git clone http://github.com/mi_proyecto
+cd mi_proyecto
+git submodule init
+git submodule update
+~~~~
+
+Si no inicias (_init_) y actualizas (_update_) los submodulos, el
+directorio correspondiente a la biblioteca de componentes BricoLabs
+estará vacío en tu copia del proyecto.
