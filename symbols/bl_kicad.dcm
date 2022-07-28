@@ -1,13 +1,48 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N2222
+D 500mA Ic, 10V Vce, NPN Transistor, TO-92
+K NPN Transistor
+F https://www.tme.eu/Document/e00cfdf67c6bc5ea752e3b45cad967f9/2N2221_2.pdf
+$ENDCMP
+#
 $CMP Arduino_Pro_Mini
 D Arduino Pro Micro
-K Arduino 
+K Arduino
+$ENDCMP
+#
+$CMP BC140
+D 1A Ic, 40V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP BC141
+D 1A Ic, 60V Vce, NPN Transistor, TO-39
+K NPN Transistor
+F http://www.farnell.com/datasheets/296634.pdf
+$ENDCMP
+#
+$CMP DD05CVSA
+D Charger and Boost DC-DC Converter
+F https://www.aliexpress.com/item/32793055741.html
 $ENDCMP
 #
 $CMP TB6612FNG_BREAKOUT
 D TB6612FNG Dual Motor Driver Carrier (Pololu #713)
 K MOTOR DRIVER BREAKOUT
+$ENDCMP
+#
+$CMP USB_B_Mini
+D USB Mini Type B connector
+K connector USB mini
+F ~
+$ENDCMP
+#
+$CMP USB_mini_noshield
+D USB Micro Type B connector
+K connector USB micro
+F ~
 $ENDCMP
 #
 #End Doc Library
